@@ -4,8 +4,8 @@ import {
   RouterSettings,
 } from "oaf-routing";
 
-import Transition from "@ember/routing/-private/transition";
 import RouteInfo from "@ember/routing/-private/route-info";
+import Transition from "@ember/routing/-private/transition";
 
 // tslint:disable: no-expression-statement
 // tslint:disable: no-if-statement
@@ -32,12 +32,12 @@ export const createOafEmberRouter = (
   const oafRouter = createOafRouter<RouteInfo>(
     settings,
     // TODO: get hash from route info itself.
-    () => window.document.location.hash
+    () => window.document.location.hash,
   );
 
   return {
     routeDidChange: (transition: Transition) => {
-      setTimeout(() =>{
+      setTimeout(() => {
         if (transition.from === null) {
           oafRouter.handleFirstPageLoad(transition.to);
         } else {
@@ -45,10 +45,10 @@ export const createOafEmberRouter = (
             transition.from,
             transition.to,
             undefined,
-            undefined
+            undefined,
           );
         }
       });
-    }
+    },
   };
 };
