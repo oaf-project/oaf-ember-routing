@@ -1,0 +1,36 @@
+{
+  "name": "oaf-ember-routing",
+  "version": "0.1.0",
+  "description": "An accessible wrapper for Ember routing.",
+  "main": "dist",
+  "repository": "https://github.com/oaf-project/oaf-ember-routing.git",
+  "author": "Daniel Nixon <dan.nixon@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/ember__routing": "^3.0.9",
+    "prettier": "^1.17.1",
+    "prettylint": "^1.0.0",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-immutable": "^5.5.2",
+    "tslint-sonarts": "^1.9.0",
+    "type-coverage": "^2.0.1",
+    "typedoc": "^0.14.2",
+    "typescript": "^3.4.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json -c tslint.json",
+    "type-coverage": "type-coverage --at-least 98",
+    "format": "prettier --write '{src,test}/**/*.{ts,tsx}'",
+    "format-lint": "prettylint '{src,test}/**/*.{ts,tsx}'",
+    "documentation": "typedoc --excludeNotExported --excludePrivate --out docs src && cp docs_config.yml ./docs/_config.yml",
+    "release": "yarn build && yarn lint && yarn type-coverage && yarn format-lint && yarn publish && yarn documentation"
+  },
+  "prettier": {
+    "trailingComma": "all"
+  },
+  "dependencies": {
+    "oaf-routing": "^3.0.0"
+  }
+}
