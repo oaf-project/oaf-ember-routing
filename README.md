@@ -96,3 +96,6 @@ All that said, if you absolutely _must_ remove focus outlines (stubborn client, 
 ## See also
 * [Oaf Routing](https://github.com/oaf-project/oaf-routing)
 * [Oaf Side Effects](https://github.com/oaf-project/oaf-side-effects)
+* [Ember Accessible Routing RFC](https://github.com/emberjs/rfcs/pull/433)
+* [ember-self-focused](https://github.com/linkedin/self-focused/tree/master/packages/ember-self-focused)
+* [ember-a11y](https://github.com/ember-a11y/ember-a11y)
