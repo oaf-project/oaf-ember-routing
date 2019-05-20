@@ -9,7 +9,7 @@
 
 
 # Oaf Ember Routing
-An accessible wrapper for [Ember routing](https://guides.emberjs.com/release/routing/).
+An accessible wrapper for [Ember routing](https://guides.emberjs.com/release/routing/), built with [Oaf Routing](https://github.com/oaf-project/oaf-routing).
 
 Documentation at https://oaf-project.github.io/oaf-ember-routing/
 
