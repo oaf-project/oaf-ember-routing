@@ -30,7 +30,7 @@
     "trailingComma": "all"
   },
   "dependencies": {
-    "oaf-routing": "^3.0.0"
+    "oaf-routing": "^4.0.0"
   },
   "typeCoverage": {
     "atLeast": 100
