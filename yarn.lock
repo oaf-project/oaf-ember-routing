@@ -43,9 +43,9 @@
     "@types/rsvp" "*"
 
 "@types/ember__routing@*", "@types/ember__routing@^3.0.9":
-  version "3.0.10"
-  resolved "https://registry.yarnpkg.com/@types/ember__routing/-/ember__routing-3.0.10.tgz#1421372cd3d4223ae6f58f05e00df041ac7039b6"
-  integrity sha512-2uEVqmskaStUZIPMEk/9ZRQjrik1U3nPV6ZVKoCZDWkRO7eduB/j8X3d7Kag0LFMapz42XFIUQ0sfzCNg9nVNA==
+  version "3.16.8"
+  resolved "https://registry.yarnpkg.com/@types/ember__routing/-/ember__routing-3.16.8.tgz#92b6b9931169ea46c88f9f2c66bde1ee9756ddc1"
+  integrity sha512-jnLHSEm0klbGXYVV6VFY9fvsQ/Ff4MfFAbw7EWafgUmEvhPGE79amVuquWN+c6UclCoQDOWYtVTzkoQjo2OuIg==
   dependencies:
     "@types/ember__component" "*"
     "@types/ember__controller" "*"
